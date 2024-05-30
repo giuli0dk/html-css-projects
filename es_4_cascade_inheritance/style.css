@@ -1,0 +1,55 @@
+body {
+  color: lightslategray;
+}
+
+blockquote {
+  background-color: rgba(0, 12, 24, 0.05);
+}
+
+a {
+  border: 1px dashed red;
+}
+
+em {
+  color: darkred;
+}
+
+p .variant-em {
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+}
+
+ul {
+  background-color: unset;
+}
+
+ul li {
+  padding: 16px;
+}
+
+.link1 a:hover {
+    color: inherit;
+    cursor: pointer;
+    font-size: large;
+}
+
+.link2 a:hover {
+    color: initial;
+    cursor: pointer;
+    font-size: large;
+}
+
+.link3 a:hover {
+    color: unset;
+    cursor: pointer;
+    font-size: large;
+}
+
+.content1:hover {
+    border-style: solid;
+    border-color: rgba(0, 12, 24, 0.05);
+    border-radius: 10px;
+    cursor: -webkit-zoom-in;
+    font-size: large;
+}
