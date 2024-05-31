@@ -1,0 +1,50 @@
+
+.first-paragraph::first-letter {
+    float: left;
+    color: darkred;
+    border: 3px ridge darkgoldenrod;
+    padding: 16px;
+    background-color: gold;
+    margin: 8px;
+}
+
+blockquote {
+	background-color: rgba(0, 0, 0, .12);
+	padding: 8px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: rgba(0, 12, 24, 0.05);
+
+}
+
+blockquote::before {
+    content: ' "';
+}
+
+blockquote::after {
+    content: ' "';
+}
+
+a:link {
+	color: darkred;
+	text-decoration: none;
+    transition: 0.3s;
+}
+
+a:visited {
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration:  underline overline;
+    font-size: large;
+}
+
+a:active {
+    color: green;
+    text-decoration: underline;
+}
+
+
