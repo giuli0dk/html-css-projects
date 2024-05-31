@@ -1,0 +1,51 @@
+table {
+    border: 1px solid #263238;
+    width: 50vw;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 18px;
+    color: #263238;
+    margin: 15px 0 15px 0;
+}
+
+thead {
+    font-weight: 700;
+    color: white;
+    background-color: #455a64;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eceff1;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #b0bec5;
+}
+
+tfoot {
+    font-weight: 800;
+    background-color: #78909c;
+}
+
+tbody td:nth-child(2) {
+    color: #003300;
+    text-align: right;
+}
+
+tbody td:nth-child(3) {
+    color: #7f0000;
+    text-align: right;
+}
+
+tfoot td:nth-child(2) {
+    text-align: right;
+}
+
+tfoot td:nth-child(3) {
+    text-align: right;
+}
+
+
+
