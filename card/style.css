@@ -1,0 +1,65 @@
+
+:root {
+    --items-padding: 0% 0% 5% 5%; 
+    --items-border-bottom: 1px solid grey;
+    font-weight: 600;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    width: 23.7vw;
+    height: auto;
+    flex-flow: column;
+    justify-content: center;
+    align-items: left;
+    border: 1px solid gray;
+    margin: auto;
+    border-radius: 6px;
+}
+
+figure{
+    background-color: grey;
+    padding: 20%;
+    max-width: max-content;
+    min-width: 60.2%;
+    margin: auto;
+    height: 15vh;
+}
+
+figcaption {
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 15%;
+}
+
+h1 {
+   padding: 0% 0% 0% 5%; 
+}
+
+p {
+    padding: var(--items-padding);
+    border-bottom: var(--items-border-bottom);
+}
+
+a {
+    padding: var(--items-padding);
+    text-decoration: underline;
+}
+
+.second-link {
+    margin: auto;
+    display: inline;
+}
+
+p:nth-child(1) {
+    margin: 0% 0% 5% 0%;
+}
+
+.link-container {
+    padding: 0% 10% 10% 0%;
+    margin: 3% 3% 3% 0%;
+}
+
