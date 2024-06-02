@@ -1,0 +1,53 @@
+body {
+    width: 60em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+  }
+  
+  section {
+    padding: 2em;
+    margin: 1em;
+
+  }
+  
+  #green {
+    background-color: #8ffda7;
+    grid-column: span 3;
+
+  }
+  
+  #orange {
+    background-color: #ffc788;
+    grid-column: span 2;
+  }
+  
+  #yellow {
+    background-color: #ffff92;
+  }
+  
+  #red {
+    background-color: #ff919c;
+  }
+  
+  #blue {
+    background-color: #98d2ff;
+    grid-row: span 2;
+  }
+  
+  ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  li {
+    background-color: white;
+    padding: 1em;
+    display: block;
+    margin: 1em;
+    width: 40%;
+  }
+  
