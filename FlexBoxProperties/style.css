@@ -1,0 +1,133 @@
+ .container {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    justify-content: center;
+ }
+
+ .container-one {
+    border: 2px solid black;
+    text-align: center;
+    width: 25vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 0, 0.540);
+ }
+
+ .container-two {
+    border: 2px solid black;
+    text-align: center;
+    width: 25vw;
+    height: 100vh;
+    background-color: rgba(255, 0, 0, 0.540);
+
+ }
+
+ .container-three {
+    border: 2px solid black;
+    text-align: center;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgba(0, 128, 0, 0.540);
+ }
+
+
+ .container-four {
+    border: 2px solid black;
+    text-align: center;
+    width: 40vw;
+    height: 100vh;
+    background-color: rgba(255, 166, 0, 0.540);
+
+ }
+
+ .container-five {
+    border: 2px solid black;
+    text-align: center;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.540);
+ }
+
+ .container1:nth-child(*) {
+    border: 1px solid black;
+ }
+
+.container-one div {
+    margin-top: 80%;
+}
+
+.container-two div {
+    margin-top: 80%;
+}
+
+.container-three div {
+    margin-top: 100%;
+}
+
+.container-four div {
+    margin-top: 50%;
+}
+
+.container-five div {
+    margin-top: 100%;
+}
+
+.container-one div:nth-child(2) {
+    background-color: aliceblue;
+    width: 70px;
+    height: 80px;
+    margin: auto;
+}
+
+.container-one div:nth-child(3) {
+    background-color: aliceblue;
+    width: 70px;
+    height: 80px;
+    margin: auto;
+}
+
+.container-one div:nth-child(4) {
+    background-color: aliceblue;
+    width: 70px;
+    height: 80px;
+    margin: auto;
+}
+
+.container-one div:nth-child(5) {
+    background-color: aliceblue;
+    width: 70px;
+    height: 80px;
+    margin: auto;
+}
+
+.container-two div:nth-child(2) {
+    background-color: aliceblue;
+    width: 70px;
+    height: 80px;
+    margin: auto;
+}
+
+.container-two div:nth-child(3) {
+    background-color: aliceblue;
+    width: 70px;
+    height: 80px;
+    margin: auto;
+}
+
+.container-two div:nth-child(4) {
+    background-color: aliceblue;
+    width: 70px;
+    height: 80px;
+    margin: auto;
+}
+
+.container-two div:nth-child(5) {
+    background-color: aliceblue;
+    width: 70px;
+    height: 80px;
+    margin: auto;
+}
+
+p {
+    padding-top: 50%;
+}
