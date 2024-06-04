@@ -1,0 +1,181 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: max-content;
+  gap: 30px;
+}
+
+.cat1 {
+  grid-row: 1;
+  background-color: #33333333;
+  border-radius: 8%;
+  width: 280px;
+  height: 380px;
+  margin-top: 20%;
+}
+
+.cat2 {
+  grid-row: 1;
+  background-color: #33333333;
+  border-radius: 8%;
+  width: 280px;
+  height: 380px;
+  margin-top: 20%;
+}
+
+.cat3 {
+  grid-row: 1;
+  background-color: #33333333;
+  border-radius: 8%;
+  width: 280px;
+  height: 380px;
+  margin-top: 20%;
+}
+
+.cat-img {
+  width: 280px;
+  height: 170px;
+}
+
+.cat-avatar {
+  width: 30px;
+  border-radius: 100%;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.date {
+  display: block;
+  margin-left: 14%;
+  color: white;
+  padding: 4px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.text::before {
+  content: "gatto:";
+  font-weight: bold;
+}
+
+.text {
+  margin: auto;
+  padding: 0px 4px 4px 4px;
+}
+
+.emoji {
+  margin-left: 6%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cuore {
+  margin-right: 5px;
+}
+
+.mess {
+  margin-left: 5px;
+}
+
+.dot1 {
+  margin-left: 35%;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.dot2 {
+  margin-left: 44%;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.dot3 {
+  margin-left: 27%;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+@media all and (max-width: 768px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    width: max-content;
+    gap: 30px;
+  }
+
+  .cat1 {
+    grid-row: 1;
+    background-color: #33333333;
+    border-radius: 8%;
+    width: 280px;
+    height: 380px;
+    margin: auto;
+  }
+
+  .cat2 {
+    grid-row: 1;
+    background-color: #33333333;
+    border-radius: 8%;
+    width: 280px;
+    height: 380px;
+    margin: auto;
+  }
+
+  .cat3 {
+    grid-row: 2;
+    background-color: #33333333;
+    border-radius: 8%;
+    width: 280px;
+    height: 380px;
+    margin: auto;
+  }
+}
+
+@media all and (max-width: 375px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    width: max-content;
+    gap: 30px;
+  }
+
+  .cat1 {
+    grid-row: 1;
+    background-color: #33333333;
+    border-radius: 8%;
+    width: 280px;
+    height: 380px;
+    margin: auto;
+  }
+
+  .cat2 {
+    grid-row: 2;
+    background-color: #33333333;
+    border-radius: 8%;
+    width: 280px;
+    height: 380px;
+    margin: auto;
+  }
+
+  .cat3 {
+    grid-row: 3;
+    background-color: #33333333;
+    border-radius: 8%;
+    width: 280px;
+    height: 380px;
+    margin: auto;
+  }
+}
